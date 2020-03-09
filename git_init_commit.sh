@@ -1,5 +1,5 @@
 #! /bin/bash
-echo -p "Enter git repository name: " repo
+read -p "Enter git repository name: " repo
 git init
 git add .
 git commit -m "Initial commit"
