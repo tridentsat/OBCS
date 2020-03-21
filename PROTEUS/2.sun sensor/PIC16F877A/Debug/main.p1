@@ -1,0 +1,674 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"1159 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2229
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"2404
+[v _ADON `Vb ~T0 @X0 0 e@248 ]
+[v F844 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic.h
+[v __delay `JF844 ~T0 @X0 0 e ]
+[p i __delay ]
+"2578 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _GO_nDONE `Vb ~T0 @X0 0 e@250 ]
+"1152
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2222
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"2761
+[v _RD4 `Vb ~T0 @X0 0 e@68 ]
+"2764
+[v _RD5 `Vb ~T0 @X0 0 e@69 ]
+"2767
+[v _RD6 `Vb ~T0 @X0 0 e@70 ]
+"2770
+[v _RD7 `Vb ~T0 @X0 0 e@71 ]
+"2755
+[v _RD2 `Vb ~T0 @X0 0 e@66 ]
+"2758
+[v _RD3 `Vb ~T0 @X0 0 e@67 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"194 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c90\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+[p mainexit ]
+"1499 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"2935
+[v _TRISB0 `Vb ~T0 @X0 0 e@1072 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c90\math.h
+[v _sqrt `(d ~T0 @X0 0 ef1`d ]
+"40
+[v _acos `(d ~T0 @X0 0 ef1`d ]
+"7 ../main.c
+[p x FOSC=HS ]
+"8
+[p x WDTE=OFF ]
+"9
+[p x PWRTE=OFF ]
+"10
+[p x BOREN=OFF ]
+"11
+[p x LVP=OFF ]
+"12
+[p x CPD=OFF ]
+"13
+[p x WRT=OFF ]
+"14
+[p x CP=OFF ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"218
+[; <" PORTB equ 06h ;# ">
+"280
+[; <" PORTC equ 07h ;# ">
+"342
+[; <" PORTD equ 08h ;# ">
+"404
+[; <" PORTE equ 09h ;# ">
+"436
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"732
+[; <" TMR2 equ 011h ;# ">
+"739
+[; <" T2CON equ 012h ;# ">
+"810
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; <" SSPCON equ 014h ;# ">
+"887
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; <" TXREG equ 019h ;# ">
+"1068
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; <" TRISA equ 085h ;# ">
+"1377
+[; <" TRISB equ 086h ;# ">
+"1439
+[; <" TRISC equ 087h ;# ">
+"1501
+[; <" TRISD equ 088h ;# ">
+"1563
+[; <" TRISE equ 089h ;# ">
+"1620
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; <" PR2 equ 092h ;# ">
+"1825
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; <" EECON2 equ 018Dh ;# ">
+"33 ../main.c
+[v _i `i ~T0 @X0 1 e ]
+"34
+[v _ADC_Initialize `(v ~T0 @X0 1 ef ]
+"35
+{
+[e :U _ADC_Initialize ]
+[f ]
+"36
+[e = _ADCON0 -> -> 128 `i `uc ]
+"37
+[e = _ADCON1 -> -> 128 `i `uc ]
+"38
+[e = _ADON -> -> 1 `i `b ]
+"39
+[e :UE 96 ]
+}
+"41
+[v _ADC_Read `(ui ~T0 @X0 1 ef1`uc ]
+"42
+{
+[e :U _ADC_Read ]
+"41
+[v _channel `uc ~T0 @X0 1 r1 ]
+"42
+[f ]
+"43
+[e =| _ADCON0 -> << -> _channel `i -> 3 `i `uc ]
+"44
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"45
+[e = _GO_nDONE -> -> 1 `i `b ]
+"46
+[e $U 98  ]
+[e :U 99 ]
+[e :U 98 ]
+[e $ _GO_nDONE 99  ]
+[e :U 100 ]
+"47
+[e ) -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
+[e $UE 97  ]
+"48
+[e :UE 97 ]
+}
+"50
+[v _Lcd_SetBit `(v ~T0 @X0 1 ef1`uc ]
+"51
+{
+[e :U _Lcd_SetBit ]
+"50
+[v _data_bit `uc ~T0 @X0 1 r1 ]
+"51
+[f ]
+"52
+[e $ ! != & -> _data_bit `i -> 1 `i -> 0 `i 102  ]
+"53
+[e = _RD4 -> -> 1 `i `b ]
+[e $U 103  ]
+"54
+[e :U 102 ]
+"55
+[e = _RD4 -> -> 0 `i `b ]
+[e :U 103 ]
+"57
+[e $ ! != & -> _data_bit `i -> 2 `i -> 0 `i 104  ]
+"58
+[e = _RD5 -> -> 1 `i `b ]
+[e $U 105  ]
+"59
+[e :U 104 ]
+"60
+[e = _RD5 -> -> 0 `i `b ]
+[e :U 105 ]
+"62
+[e $ ! != & -> _data_bit `i -> 4 `i -> 0 `i 106  ]
+"63
+[e = _RD6 -> -> 1 `i `b ]
+[e $U 107  ]
+"64
+[e :U 106 ]
+"65
+[e = _RD6 -> -> 0 `i `b ]
+[e :U 107 ]
+"67
+[e $ ! != & -> _data_bit `i -> 8 `i -> 0 `i 108  ]
+"68
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 109  ]
+"69
+[e :U 108 ]
+"70
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 109 ]
+"71
+[e :UE 101 ]
+}
+"73
+[v _Lcd_Cmd `(v ~T0 @X0 1 ef1`uc ]
+"74
+{
+[e :U _Lcd_Cmd ]
+"73
+[v _a `uc ~T0 @X0 1 r1 ]
+"74
+[f ]
+"75
+[e = _RD2 -> -> 0 `i `b ]
+"76
+[e ( _Lcd_SetBit (1 _a ]
+"77
+[e = _RD3 -> -> 1 `i `b ]
+"78
+[e ( __delay (1 -> * -> -> 4 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"79
+[e = _RD3 -> -> 0 `i `b ]
+"80
+[e :UE 110 ]
+}
+"82
+[v _Lcd_Clear `(i ~T0 @X0 1 ef ]
+"83
+{
+[e :U _Lcd_Clear ]
+[f ]
+"84
+[e ( _Lcd_Cmd (1 -> -> 0 `i `uc ]
+"85
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"86
+[e :UE 111 ]
+}
+"88
+[v _Lcd_Set_Cursor `(v ~T0 @X0 1 ef2`uc`uc ]
+"89
+{
+[e :U _Lcd_Set_Cursor ]
+"88
+[v _a `uc ~T0 @X0 1 r1 ]
+[v _b `uc ~T0 @X0 1 r2 ]
+"89
+[f ]
+"90
+[v _temp `uc ~T0 @X0 1 a ]
+[v _z `uc ~T0 @X0 1 a ]
+[v _y `uc ~T0 @X0 1 a ]
+"91
+[e $ ! == -> _a `i -> 1 `i 113  ]
+"92
+{
+"93
+[e = _temp -> - + -> 128 `i -> _b `i -> 1 `i `uc ]
+"94
+[e = _z -> >> -> _temp `i -> 4 `i `uc ]
+"95
+[e = _y -> & -> _temp `i -> 15 `i `uc ]
+"96
+[e ( _Lcd_Cmd (1 _z ]
+"97
+[e ( _Lcd_Cmd (1 _y ]
+"98
+}
+[e $U 114  ]
+"99
+[e :U 113 ]
+[e $ ! == -> _a `i -> 2 `i 115  ]
+"100
+{
+"101
+[e = _temp -> - + -> 192 `i -> _b `i -> 1 `i `uc ]
+"102
+[e = _z -> >> -> _temp `i -> 4 `i `uc ]
+"103
+[e = _y -> & -> _temp `i -> 15 `i `uc ]
+"104
+[e ( _Lcd_Cmd (1 _z ]
+"105
+[e ( _Lcd_Cmd (1 _y ]
+"106
+}
+[e :U 115 ]
+"107
+[e :U 114 ]
+[e :UE 112 ]
+}
+"108
+[v _Lcd_Start `(v ~T0 @X0 1 ef ]
+"109
+{
+[e :U _Lcd_Start ]
+[f ]
+"110
+[e ( _Lcd_SetBit (1 -> -> 0 `i `uc ]
+"111
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> -> 1065244 `l `i ]
+[e $ <= _i -> 0 `i 117  ]
+[e $U 118  ]
+[e :U 117 ]
+[e ( ___nop ..  ]
+[e -- _i -> 1 `i ]
+[e $ <= _i -> 0 `i 117  ]
+[e :U 118 ]
+}
+"112
+[e ( _Lcd_Cmd (1 -> -> 3 `i `uc ]
+"113
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"114
+[e ( _Lcd_Cmd (1 -> -> 3 `i `uc ]
+"115
+[e ( __delay (1 -> * -> -> 11 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"116
+[e ( _Lcd_Cmd (1 -> -> 3 `i `uc ]
+"117
+[e ( _Lcd_Cmd (1 -> -> 2 `i `uc ]
+"118
+[e ( _Lcd_Cmd (1 -> -> 2 `i `uc ]
+"119
+[e ( _Lcd_Cmd (1 -> -> 8 `i `uc ]
+"120
+[e ( _Lcd_Cmd (1 -> -> 0 `i `uc ]
+"121
+[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
+"122
+[e ( _Lcd_Cmd (1 -> -> 0 `i `uc ]
+"123
+[e ( _Lcd_Cmd (1 -> -> 6 `i `uc ]
+"124
+[e :UE 116 ]
+}
+"126
+[v _Lcd_Print_Char `(v ~T0 @X0 1 ef1`uc ]
+"127
+{
+[e :U _Lcd_Print_Char ]
+"126
+[v _data `uc ~T0 @X0 1 r1 ]
+"127
+[f ]
+"128
+[v _Lower_Nibble `uc ~T0 @X0 1 a ]
+[v _Upper_Nibble `uc ~T0 @X0 1 a ]
+"129
+[e = _Lower_Nibble -> & -> _data `i -> 15 `i `uc ]
+"130
+[e = _Upper_Nibble -> & -> _data `i -> 240 `i `uc ]
+"131
+[e = _RD2 -> -> 1 `i `b ]
+"132
+[e ( _Lcd_SetBit (1 -> >> -> _Upper_Nibble `i -> 4 `i `uc ]
+"133
+[e = _RD3 -> -> 1 `i `b ]
+"134
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> -> 2130483 `l `i ]
+[e $ <= _i -> 0 `i 121  ]
+[e $U 122  ]
+[e :U 121 ]
+[e ( ___nop ..  ]
+[e -- _i -> 1 `i ]
+[e $ <= _i -> 0 `i 121  ]
+[e :U 122 ]
+}
+"135
+[e = _RD3 -> -> 0 `i `b ]
+"136
+[e ( _Lcd_SetBit (1 _Lower_Nibble ]
+"137
+[e = _RD3 -> -> 1 `i `b ]
+"138
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> -> 2130483 `l `i ]
+[e $ <= _i -> 0 `i 124  ]
+[e $U 125  ]
+[e :U 124 ]
+[e ( ___nop ..  ]
+[e -- _i -> 1 `i ]
+[e $ <= _i -> 0 `i 124  ]
+[e :U 125 ]
+}
+"139
+[e = _RD3 -> -> 0 `i `b ]
+"140
+[e :UE 120 ]
+}
+"142
+[v _Lcd_Print_String `(v ~T0 @X0 1 ef1`*uc ]
+"143
+{
+[e :U _Lcd_Print_String ]
+"142
+[v _a `*uc ~T0 @X0 1 r1 ]
+"143
+[f ]
+[v _i `i ~T0 @X0 1 a ]
+"145
+{
+[e = _i -> 0 `i ]
+[e $U 131  ]
+"146
+[e :U 128 ]
+[e ( _Lcd_Print_Char (1 *U + _a * -> _i `x -> -> # *U _a `i `x ]
+"145
+[e ++ _i -> 1 `i ]
+[e :U 131 ]
+[e $ != -> *U + _a * -> _i `x -> -> # *U _a `i `x `ui -> 0 `ui 128  ]
+[e :U 129 ]
+"146
+}
+"147
+[e :UE 127 ]
+}
+"148
+[v _Lcd_Print_Ang `(v ~T0 @X0 1 ef1`f ]
+"149
+{
+[e :U _Lcd_Print_Ang ]
+"148
+[v _f `f ~T0 @X0 1 r1 ]
+"149
+[f ]
+"150
+[v _str `uc ~T0 @X0 -> 80 `i a ]
+"151
+[v _ival `i ~T0 @X0 1 a ]
+[e = _ival -> _f `i ]
+"152
+[v _fval `f ~T0 @X0 1 a ]
+[e = _fval - _f -> _ival `f ]
+"153
+[e ( _sprintf (1 , , (. , &U _str :s 1C _ival -> * -> -> 100 `i `f _fval `d ]
+"154
+[e ( _Lcd_Print_String (1 &U _str ]
+"155
+[e :UE 132 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"157
+[v _main `(v ~T0 @X0 1 ef ]
+"158
+{
+[e :U _main ]
+[f ]
+"160
+[v _x `f ~T0 @X0 1 a ]
+[v _y `f ~T0 @X0 1 a ]
+[v _z `f ~T0 @X0 1 a ]
+[v _negx `f ~T0 @X0 1 a ]
+[v _negy `f ~T0 @X0 1 a ]
+[v _r `f ~T0 @X0 1 a ]
+"161
+[v _A `f ~T0 @X0 1 a ]
+[e = _A -> -> 0 `i `f ]
+[v _B `f ~T0 @X0 1 a ]
+[e = _B -> -> 0 `i `f ]
+[v _C `f ~T0 @X0 1 a ]
+[e = _C -> -> 0 `i `f ]
+[v _D `f ~T0 @X0 1 a ]
+[e = _D -> -> 0 `i `f ]
+[v _E `f ~T0 @X0 1 a ]
+[e = _E -> -> 0 `i `f ]
+[v F1023 `uc ~T0 @X0 -> 0 `x s ]
+[i F1023
+:U ..
+-> 65 `c
+-> 61 `c
+-> 0 `c
+..
+]
+"162
+[v _a `uc ~T0 @X0 3  a ]
+[e = _a F1023 ]
+[v F1025 `uc ~T0 @X0 -> 0 `x s ]
+[i F1025
+:U ..
+-> 66 `c
+-> 61 `c
+-> 0 `c
+..
+]
+[v _b `uc ~T0 @X0 3  a ]
+[e = _b F1025 ]
+[v F1027 `uc ~T0 @X0 -> 0 `x s ]
+[i F1027
+:U ..
+-> 67 `c
+-> 61 `c
+-> 0 `c
+..
+]
+[v _c `uc ~T0 @X0 3  a ]
+[e = _c F1027 ]
+[v F1029 `uc ~T0 @X0 -> 0 `x s ]
+[i F1029
+:U ..
+-> 68 `c
+-> 61 `c
+-> 0 `c
+..
+]
+"163
+[v _d `uc ~T0 @X0 3  a ]
+[e = _d F1029 ]
+[v F1031 `uc ~T0 @X0 -> 0 `x s ]
+[i F1031
+:U ..
+-> 69 `c
+-> 61 `c
+-> 0 `c
+..
+]
+[v _e `uc ~T0 @X0 3  a ]
+[e = _e F1031 ]
+"165
+[e = _TRISD -> -> 0 `i `uc ]
+"166
+[e = _TRISB0 -> -> 1 `i `b ]
+"169
+[e ( _ADC_Initialize ..  ]
+"170
+[e ( _Lcd_Start ..  ]
+"172
+[e :U 135 ]
+"173
+{
+"178
+[e = _x -> ( _ADC_Read (1 -> -> 0 `i `uc `f ]
+"179
+[e = _y -> ( _ADC_Read (1 -> -> 1 `i `uc `f ]
+"180
+[e = _z -> ( _ADC_Read (1 -> -> 2 `i `uc `f ]
+"181
+[e = _negx -> ( _ADC_Read (1 -> -> 3 `i `uc `f ]
+"182
+[e = _negy -> ( _ADC_Read (1 -> -> 4 `i `uc `f ]
+"187
+[e = _r -> + ( _sqrt (1 -> + + * + _x _negx + _x _negx * + _y _negy + _y _negy * _z _z `d -> -> 1 `i `d `f ]
+"188
+[e = _A -> * ( _acos (1 -> / _x _r `d .57.29 `f ]
+"189
+[e = _B -> * ( _acos (1 -> / _y _r `d .57.29 `f ]
+"190
+[e = _C -> * ( _acos (1 -> / _z _r `d .57.29 `f ]
+"191
+[e = _D -> * ( _acos (1 -> / _negx _r `d .57.29 `f ]
+"192
+[e = _E -> * ( _acos (1 -> / _negy _r `d .57.29 `f ]
+"195
+[e ( _Lcd_Clear ..  ]
+"196
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"197
+[e ( _Lcd_Print_String (1 &U _a ]
+[e ( _Lcd_Print_Ang (1 _A ]
+"198
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 8 `i `uc ]
+"199
+[e ( _Lcd_Print_String (1 &U _b ]
+[e ( _Lcd_Print_Ang (1 _B ]
+"200
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"201
+[e ( _Lcd_Print_String (1 &U _c ]
+[e ( _Lcd_Print_Ang (1 _C ]
+"202
+[e ( _Lcd_Set_Cursor (2 , -> -> 2 `i `uc -> -> 8 `i `uc ]
+"203
+[e ( _Lcd_Print_String (1 &U _d ]
+[e ( _Lcd_Print_Ang (1 _D ]
+"204
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"205
+[e ( _Lcd_Clear ..  ]
+"206
+[e ( _Lcd_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"207
+[e ( _Lcd_Print_String (1 &U _e ]
+[e ( _Lcd_Print_Ang (1 _E ]
+"208
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"212
+}
+[e :U 134 ]
+"172
+[e $U 135  ]
+[e :U 136 ]
+"213
+[e :UE 133 ]
+}
+[p f _sprintf 8388736 ]
+[a 1C 37 100 46 37 100 0 ]
+

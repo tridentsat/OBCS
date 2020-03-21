@@ -1,0 +1,769 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"222 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 222:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"221
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 221: typedef union {
+[u S7 `S8 1 ]
+[n S7 . . ]
+"233
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 233: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"216
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 216: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"11 supporting c files/lcd.c
+[; ;supporting c files/lcd.c: 11: short int status=0;
+[v _status `s ~T0 @X0 1 e ]
+[i _status
+-> -> 0 `i `s
+]
+"22
+[; ;supporting c files/lcd.c: 22: void delay(unsigned int j)
+[v _delay `(v ~T0 @X0 1 ef1`ui ]
+"23
+[; ;supporting c files/lcd.c: 23: {
+{
+[e :U _delay ]
+"22
+[; ;supporting c files/lcd.c: 22: void delay(unsigned int j)
+[v _j `ui ~T0 @X0 1 r1 ]
+"23
+[; ;supporting c files/lcd.c: 23: {
+[f ]
+"24
+[; ;supporting c files/lcd.c: 24:  unsigned int i=0;
+[v _i `ui ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `ui ]
+"25
+[; ;supporting c files/lcd.c: 25:  for(i=0;i<j;i++);
+{
+[e = _i -> -> 0 `i `ui ]
+[e $U 99  ]
+[e :U 96 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 99 ]
+[e $ < _i _j 96  ]
+[e :U 97 ]
+}
+"26
+[; ;supporting c files/lcd.c: 26: }
+[e :UE 95 ]
+}
+"28
+[; ;supporting c files/lcd.c: 28: void lcd_init_write(unsigned char a)
+[v _lcd_init_write `(v ~T0 @X0 1 ef1`uc ]
+"29
+[; ;supporting c files/lcd.c: 29: {
+{
+[e :U _lcd_init_write ]
+"28
+[; ;supporting c files/lcd.c: 28: void lcd_init_write(unsigned char a)
+[v _a `uc ~T0 @X0 1 r1 ]
+"29
+[; ;supporting c files/lcd.c: 29: {
+[f ]
+"30
+[; ;supporting c files/lcd.c: 30:  PORTBbits.RB0=0;
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+"31
+[; ;supporting c files/lcd.c: 31:  PORTBbits.RB1=0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"32
+[; ;supporting c files/lcd.c: 32:  PORTB=a;
+[e = _PORTB _a ]
+"33
+[; ;supporting c files/lcd.c: 33:  PORTBbits.RB2=1;
+[e = . . _PORTBbits 0 2 -> -> 1 `i `uc ]
+"34
+[; ;supporting c files/lcd.c: 34:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"35
+[; ;supporting c files/lcd.c: 35:  PORTBbits.RB2=0;
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"36
+[; ;supporting c files/lcd.c: 36: }
+[e :UE 100 ]
+}
+"39
+[; ;supporting c files/lcd.c: 39: void lcd_com(unsigned char a)
+[v _lcd_com `(v ~T0 @X0 1 ef1`uc ]
+"40
+[; ;supporting c files/lcd.c: 40: {
+{
+[e :U _lcd_com ]
+"39
+[; ;supporting c files/lcd.c: 39: void lcd_com(unsigned char a)
+[v _a `uc ~T0 @X0 1 r1 ]
+"40
+[; ;supporting c files/lcd.c: 40: {
+[f ]
+"41
+[; ;supporting c files/lcd.c: 41:  unsigned char temp;
+[v _temp `uc ~T0 @X0 1 a ]
+"42
+[; ;supporting c files/lcd.c: 42:  if(status)
+[e $ ! != -> _status `i -> 0 `i 102  ]
+"43
+[; ;supporting c files/lcd.c: 43:  {
+{
+"44
+[; ;supporting c files/lcd.c: 44:   status=0;
+[e = _status -> -> 0 `i `s ]
+"45
+[; ;supporting c files/lcd.c: 45:   goto next;
+[e $U 103  ]
+"46
+[; ;supporting c files/lcd.c: 46:  }
+}
+[e :U 102 ]
+"47
+[; ;supporting c files/lcd.c: 47:  PORTBbits.RB0=0;
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+"48
+[; ;supporting c files/lcd.c: 48:  next:
+[e :U 103 ]
+"49
+[; ;supporting c files/lcd.c: 49:  PORTBbits.RB1=0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"50
+[; ;supporting c files/lcd.c: 50:  temp=a;
+[e = _temp _a ]
+"51
+[; ;supporting c files/lcd.c: 51:  temp&=0xf0;
+[e =& _temp -> -> 240 `i `uc ]
+"52
+[; ;supporting c files/lcd.c: 52:  PORTB&=0x0f;
+[e =& _PORTB -> -> 15 `i `Vuc ]
+"53
+[; ;supporting c files/lcd.c: 53:  PORTB|=temp;
+[e =| _PORTB -> _temp `Vuc ]
+"54
+[; ;supporting c files/lcd.c: 54:  PORTBbits.RB2=1;
+[e = . . _PORTBbits 0 2 -> -> 1 `i `uc ]
+"55
+[; ;supporting c files/lcd.c: 55:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"56
+[; ;supporting c files/lcd.c: 56:  PORTBbits.RB2=0;
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"57
+[; ;supporting c files/lcd.c: 57:  temp=a<<4;
+[e = _temp -> << -> _a `i -> 4 `i `uc ]
+"58
+[; ;supporting c files/lcd.c: 58:  temp&=0xf0;
+[e =& _temp -> -> 240 `i `uc ]
+"59
+[; ;supporting c files/lcd.c: 59:  PORTB&=0x0f;
+[e =& _PORTB -> -> 15 `i `Vuc ]
+"60
+[; ;supporting c files/lcd.c: 60:  PORTB|=temp;
+[e =| _PORTB -> _temp `Vuc ]
+"61
+[; ;supporting c files/lcd.c: 61:  PORTBbits.RB2=1;
+[e = . . _PORTBbits 0 2 -> -> 1 `i `uc ]
+"62
+[; ;supporting c files/lcd.c: 62:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"63
+[; ;supporting c files/lcd.c: 63:  PORTBbits.RB2=0;
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"64
+[; ;supporting c files/lcd.c: 64: }
+[e :UE 101 ]
+}
+"66
+[; ;supporting c files/lcd.c: 66: void lcd_data(unsigned char a)
+[v _lcd_data `(v ~T0 @X0 1 ef1`uc ]
+"67
+[; ;supporting c files/lcd.c: 67: {
+{
+[e :U _lcd_data ]
+"66
+[; ;supporting c files/lcd.c: 66: void lcd_data(unsigned char a)
+[v _a `uc ~T0 @X0 1 r1 ]
+"67
+[; ;supporting c files/lcd.c: 67: {
+[f ]
+"68
+[; ;supporting c files/lcd.c: 68:  status=1;
+[e = _status -> -> 1 `i `s ]
+"69
+[; ;supporting c files/lcd.c: 69:  PORTBbits.RB0=1;
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+"70
+[; ;supporting c files/lcd.c: 70:  lcd_com(a);
+[e ( _lcd_com (1 _a ]
+"71
+[; ;supporting c files/lcd.c: 71: }
+[e :UE 104 ]
+}
+"72
+[; ;supporting c files/lcd.c: 72: void lcd_init(void)
+[v _lcd_init `(v ~T0 @X0 1 ef ]
+"73
+[; ;supporting c files/lcd.c: 73: {
+{
+[e :U _lcd_init ]
+[f ]
+"74
+[; ;supporting c files/lcd.c: 74:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"75
+[; ;supporting c files/lcd.c: 75:  lcd_init_write(0x30);
+[e ( _lcd_init_write (1 -> -> 48 `i `uc ]
+"76
+[; ;supporting c files/lcd.c: 76:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"77
+[; ;supporting c files/lcd.c: 77:  lcd_init_write(0x30);
+[e ( _lcd_init_write (1 -> -> 48 `i `uc ]
+"78
+[; ;supporting c files/lcd.c: 78:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"79
+[; ;supporting c files/lcd.c: 79:  lcd_init_write(0x30);
+[e ( _lcd_init_write (1 -> -> 48 `i `uc ]
+"80
+[; ;supporting c files/lcd.c: 80:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"81
+[; ;supporting c files/lcd.c: 81:  lcd_init_write(0x20);
+[e ( _lcd_init_write (1 -> -> 32 `i `uc ]
+"82
+[; ;supporting c files/lcd.c: 82:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"83
+[; ;supporting c files/lcd.c: 83:  lcd_com(0xC);
+[e ( _lcd_com (1 -> -> 12 `i `uc ]
+"85
+[; ;supporting c files/lcd.c: 85:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"86
+[; ;supporting c files/lcd.c: 86:  lcd_com(4);
+[e ( _lcd_com (1 -> -> 4 `i `uc ]
+"87
+[; ;supporting c files/lcd.c: 87:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"88
+[; ;supporting c files/lcd.c: 88:  lcd_com(0x85);
+[e ( _lcd_com (1 -> -> 133 `i `uc ]
+"89
+[; ;supporting c files/lcd.c: 89:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"90
+[; ;supporting c files/lcd.c: 90:  lcd_com(6);
+[e ( _lcd_com (1 -> -> 6 `i `uc ]
+"91
+[; ;supporting c files/lcd.c: 91:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"92
+[; ;supporting c files/lcd.c: 92:  lcd_com(1);
+[e ( _lcd_com (1 -> -> 1 `i `uc ]
+"93
+[; ;supporting c files/lcd.c: 93:  delay(300);
+[e ( _delay (1 -> -> 300 `i `ui ]
+"94
+[; ;supporting c files/lcd.c: 94: }
+[e :UE 105 ]
+}
+"95
+[; ;supporting c files/lcd.c: 95: void lcd_puts(char *str)
+[v _lcd_puts `(v ~T0 @X0 1 ef1`*uc ]
+"96
+[; ;supporting c files/lcd.c: 96: {
+{
+[e :U _lcd_puts ]
+"95
+[; ;supporting c files/lcd.c: 95: void lcd_puts(char *str)
+[v _str `*uc ~T0 @X0 1 r1 ]
+"96
+[; ;supporting c files/lcd.c: 96: {
+[f ]
+"97
+[; ;supporting c files/lcd.c: 97:   unsigned int i=0;
+[v _i `ui ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `ui ]
+"98
+[; ;supporting c files/lcd.c: 98:  for(;str[i]!=0;i++)
+{
+[e $U 110  ]
+[e :U 107 ]
+"99
+[; ;supporting c files/lcd.c: 99:   lcd_data(str[i]);
+[e ( _lcd_data (1 -> *U + _str * -> _i `ux -> -> # *U _str `ui `ux `uc ]
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 110 ]
+[e $ != -> *U + _str * -> _i `ux -> -> # *U _str `ui `ux `i -> 0 `i 107  ]
+[e :U 108 ]
+}
+"100
+[; ;supporting c files/lcd.c: 100: }
+[e :UE 106 ]
+}
+"102
+[; ;supporting c files/lcd.c: 102: void hex2lcd(unsigned char hex){
+[v _hex2lcd `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _hex2lcd ]
+[v _hex `uc ~T0 @X0 1 r1 ]
+[f ]
+"103
+[; ;supporting c files/lcd.c: 103:  char temp1,temp2;
+[v _temp1 `uc ~T0 @X0 1 a ]
+[v _temp2 `uc ~T0 @X0 1 a ]
+"104
+[; ;supporting c files/lcd.c: 104:  temp1 = hex;
+[e = _temp1 -> _hex `uc ]
+"105
+[; ;supporting c files/lcd.c: 105:  temp2=0;
+[e = _temp2 -> -> 0 `i `uc ]
+"106
+[; ;supporting c files/lcd.c: 106:  do{
+[e :U 114 ]
+{
+"107
+[; ;supporting c files/lcd.c: 107:   temp1 = temp1-100;
+[e = _temp1 -> - -> _temp1 `i -> 100 `i `uc ]
+"108
+[; ;supporting c files/lcd.c: 108:   if(temp1>=0)
+[e $ ! >= -> _temp1 `i -> 0 `i 115  ]
+"109
+[; ;supporting c files/lcd.c: 109:    temp2++;
+[e ++ _temp2 -> -> 1 `i `uc ]
+[e :U 115 ]
+"110
+[; ;supporting c files/lcd.c: 110:  } while(temp1>=0);
+}
+[e $ >= -> _temp1 `i -> 0 `i 114  ]
+[e :U 113 ]
+"111
+[; ;supporting c files/lcd.c: 111:  if(temp2>0)
+[e $ ! > -> _temp2 `i -> 0 `i 116  ]
+"112
+[; ;supporting c files/lcd.c: 112:  lcd_data(temp2+0x30);
+[e ( _lcd_data (1 -> + -> _temp2 `i -> 48 `i `uc ]
+[e :U 116 ]
+"113
+[; ;supporting c files/lcd.c: 113:  temp2=0;
+[e = _temp2 -> -> 0 `i `uc ]
+"114
+[; ;supporting c files/lcd.c: 114:  temp1 = temp1+100;
+[e = _temp1 -> + -> _temp1 `i -> 100 `i `uc ]
+"115
+[; ;supporting c files/lcd.c: 115:  do{
+[e :U 119 ]
+{
+"116
+[; ;supporting c files/lcd.c: 116:   temp1 = temp1-10;
+[e = _temp1 -> - -> _temp1 `i -> 10 `i `uc ]
+"117
+[; ;supporting c files/lcd.c: 117:   if(temp1>=0)
+[e $ ! >= -> _temp1 `i -> 0 `i 120  ]
+"118
+[; ;supporting c files/lcd.c: 118:    temp2++;
+[e ++ _temp2 -> -> 1 `i `uc ]
+[e :U 120 ]
+"119
+[; ;supporting c files/lcd.c: 119:  } while(temp1>=0);
+}
+[e $ >= -> _temp1 `i -> 0 `i 119  ]
+[e :U 118 ]
+"120
+[; ;supporting c files/lcd.c: 120:  lcd_data(temp2+0x30);
+[e ( _lcd_data (1 -> + -> _temp2 `i -> 48 `i `uc ]
+"121
+[; ;supporting c files/lcd.c: 121:  temp2 = temp1+10;
+[e = _temp2 -> + -> _temp1 `i -> 10 `i `uc ]
+"122
+[; ;supporting c files/lcd.c: 122:  lcd_data(temp2+0x30);
+[e ( _lcd_data (1 -> + -> _temp2 `i -> 48 `i `uc ]
+"123
+[; ;supporting c files/lcd.c: 123: }
+[e :UE 111 ]
+}
+"125
+[; ;supporting c files/lcd.c: 125: void lcd_bcd(unsigned char uc_digit, unsigned int ui_number)
+[v _lcd_bcd `(v ~T0 @X0 1 ef2`uc`ui ]
+"126
+[; ;supporting c files/lcd.c: 126: {
+{
+[e :U _lcd_bcd ]
+"125
+[; ;supporting c files/lcd.c: 125: void lcd_bcd(unsigned char uc_digit, unsigned int ui_number)
+[v _uc_digit `uc ~T0 @X0 1 r1 ]
+[v _ui_number `ui ~T0 @X0 1 r2 ]
+"126
+[; ;supporting c files/lcd.c: 126: {
+[f ]
+[v F890 `ui ~T0 @X0 -> 5 `i s ]
+[i F890
+:U ..
+"130
+[; ;supporting c files/lcd.c: 130:  unsigned int ui_decimal[5] ={ 0 };
+-> -> 0 `i `ui
+..
+]
+[v _ui_decimal `ui ~T0 @X0 -> 5 `i a ]
+[e = _ui_decimal F890 ]
+"132
+[; ;supporting c files/lcd.c: 132:   ui_decimal[4] = ui_number/10000;
+[e = *U + &U _ui_decimal * -> -> -> 4 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux / _ui_number -> -> 10000 `i `ui ]
+"133
+[; ;supporting c files/lcd.c: 133:   ui_decimal[3] = ui_number%10000;
+[e = *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux % _ui_number -> -> 10000 `i `ui ]
+"134
+[; ;supporting c files/lcd.c: 134:   ui_decimal[2] = ui_decimal[3]%1000;
+[e = *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux % *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 1000 `i `ui ]
+"135
+[; ;supporting c files/lcd.c: 135:   ui_decimal[3] = ui_decimal[3]/1000;
+[e = *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux / *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 1000 `i `ui ]
+"136
+[; ;supporting c files/lcd.c: 136:   ui_decimal[1] = ui_decimal[2]%100;
+[e = *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux % *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 100 `i `ui ]
+"137
+[; ;supporting c files/lcd.c: 137:   ui_decimal[2] = ui_decimal[2]/100;
+[e = *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux / *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 100 `i `ui ]
+"138
+[; ;supporting c files/lcd.c: 138:   ui_decimal[0] = ui_decimal[1]%10;
+[e = *U + &U _ui_decimal * -> -> -> 0 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux % *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 10 `i `ui ]
+"139
+[; ;supporting c files/lcd.c: 139:   ui_decimal[1] = ui_decimal[1]/10;
+[e = *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux / *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 10 `i `ui ]
+"142
+[; ;supporting c files/lcd.c: 142:    if (ui_decimal[4]==0){
+[e $ ! == *U + &U _ui_decimal * -> -> -> 4 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 0 `i `ui 122  ]
+{
+"143
+[; ;supporting c files/lcd.c: 143:     if (ui_decimal[3]==0){
+[e $ ! == *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 0 `i `ui 123  ]
+{
+"146
+[; ;supporting c files/lcd.c: 146:      lcd_data(ui_decimal[2] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"147
+[; ;supporting c files/lcd.c: 147:      lcd_data('.');
+[e ( _lcd_data (1 -> -> 46 `ui `uc ]
+"148
+[; ;supporting c files/lcd.c: 148:      lcd_data(ui_decimal[1] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"149
+[; ;supporting c files/lcd.c: 149:      lcd_data(ui_decimal[0] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 0 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"150
+[; ;supporting c files/lcd.c: 150:     }
+}
+[e $U 124  ]
+"151
+[; ;supporting c files/lcd.c: 151:     else {
+[e :U 123 ]
+{
+"153
+[; ;supporting c files/lcd.c: 153:      lcd_data(ui_decimal[3] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"154
+[; ;supporting c files/lcd.c: 154:      lcd_data(ui_decimal[2] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"155
+[; ;supporting c files/lcd.c: 155:      lcd_data('.');
+[e ( _lcd_data (1 -> -> 46 `ui `uc ]
+"156
+[; ;supporting c files/lcd.c: 156:      lcd_data(ui_decimal[1] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"157
+[; ;supporting c files/lcd.c: 157:      lcd_data(ui_decimal[0] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 0 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"158
+[; ;supporting c files/lcd.c: 158:     }
+}
+[e :U 124 ]
+"159
+[; ;supporting c files/lcd.c: 159:    }
+}
+[e $U 125  ]
+"160
+[; ;supporting c files/lcd.c: 160:    else {
+[e :U 122 ]
+{
+"161
+[; ;supporting c files/lcd.c: 161:     lcd_data(ui_decimal[4] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 4 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"162
+[; ;supporting c files/lcd.c: 162:     lcd_data(ui_decimal[3] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 3 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"163
+[; ;supporting c files/lcd.c: 163:     lcd_data(ui_decimal[2] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 2 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"164
+[; ;supporting c files/lcd.c: 164:     lcd_data('.');
+[e ( _lcd_data (1 -> -> 46 `ui `uc ]
+"165
+[; ;supporting c files/lcd.c: 165:     lcd_data(ui_decimal[1] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 1 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"166
+[; ;supporting c files/lcd.c: 166:     lcd_data(ui_decimal[0] + 0x30);
+[e ( _lcd_data (1 -> + *U + &U _ui_decimal * -> -> -> 0 `i `ui `ux -> -> # *U &U _ui_decimal `ui `ux -> -> 48 `i `ui `uc ]
+"167
+[; ;supporting c files/lcd.c: 167:    }
+}
+[e :U 125 ]
+"170
+[; ;supporting c files/lcd.c: 170: }
+[e :UE 121 ]
+}
+"172
+[; ;supporting c files/lcd.c: 172: void LCD_ScrollMessage(char *msg_ptr)
+[v _LCD_ScrollMessage `(v ~T0 @X0 1 ef1`*uc ]
+"173
+[; ;supporting c files/lcd.c: 173: {
+{
+[e :U _LCD_ScrollMessage ]
+"172
+[; ;supporting c files/lcd.c: 172: void LCD_ScrollMessage(char *msg_ptr)
+[v _msg_ptr `*uc ~T0 @X0 1 r1 ]
+"173
+[; ;supporting c files/lcd.c: 173: {
+[f ]
+"174
+[; ;supporting c files/lcd.c: 174:   unsigned char i,j;
+[v _i `uc ~T0 @X0 1 a ]
+[v _j `uc ~T0 @X0 1 a ]
+"176
+[; ;supporting c files/lcd.c: 176:   for(i=0;msg_ptr[i];i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 130  ]
+[e :U 127 ]
+"177
+[; ;supporting c files/lcd.c: 177:     {
+{
+"180
+[; ;supporting c files/lcd.c: 180:       lcd_com(0x80);
+[e ( _lcd_com (1 -> -> 128 `i `uc ]
+"182
+[; ;supporting c files/lcd.c: 182:     for(j=0;j<16 && msg_ptr[i+j];j++)
+{
+[e = _j -> -> 0 `i `uc ]
+[e $U 134  ]
+[e :U 131 ]
+"183
+[; ;supporting c files/lcd.c: 183:    lcd_data(msg_ptr[i+j]);
+[e ( _lcd_data (1 -> *U + _msg_ptr * -> + -> _i `i -> _j `i `x -> -> # *U _msg_ptr `i `x `uc ]
+[e ++ _j -> -> 1 `i `uc ]
+[e :U 134 ]
+[e $ && < -> _j `i -> 16 `i != -> *U + _msg_ptr * -> + -> _i `i -> _j `i `x -> -> # *U _msg_ptr `i `x `i -> 0 `i 131  ]
+[e :U 132 ]
+}
+"184
+[; ;supporting c files/lcd.c: 184:    delay(1000);
+[e ( _delay (1 -> -> 1000 `i `ui ]
+"186
+[; ;supporting c files/lcd.c: 186:  for(j=j; j<16; j++)
+{
+[e = _j _j ]
+[e $ < -> _j `i -> 16 `i 135  ]
+[e $U 136  ]
+[e :U 135 ]
+"187
+[; ;supporting c files/lcd.c: 187:       lcd_data(' ');
+[e ( _lcd_data (1 -> -> 32 `ui `uc ]
+[e ++ _j -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 16 `i 135  ]
+[e :U 136 ]
+}
+"188
+[; ;supporting c files/lcd.c: 188:       delay(1000);
+[e ( _delay (1 -> -> 1000 `i `ui ]
+"189
+[; ;supporting c files/lcd.c: 189:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 130 ]
+[e $ != -> *U + _msg_ptr * -> _i `ux -> -> # *U _msg_ptr `ui `ux `i -> 0 `i 127  ]
+[e :U 128 ]
+}
+"190
+[; ;supporting c files/lcd.c: 190: }
+[e :UE 126 ]
+}

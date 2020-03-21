@@ -1,0 +1,332 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"56 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"23 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\supporting c files/ds18b20.c
+[v _ow_reset ow_reset `(uc  1 e 1 0 ]
+"57
+[v _read_byte read_byte `(uc  1 e 1 0 ]
+"87
+[v _write_byte write_byte `(v  1 e 1 0 ]
+"22 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\supporting c files/lcd.c
+[v _delay delay `(v  1 e 1 0 ]
+"28
+[v _lcd_init_write lcd_init_write `(v  1 e 1 0 ]
+"39
+[v _lcd_com lcd_com `(v  1 e 1 0 ]
+"66
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"72
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"95
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"125
+[v _lcd_bcd lcd_bcd `(v  1 e 1 0 ]
+"216 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S177 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233
+[u S186 . 1 `S177 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES186  1 e 1 @6 ]
+[s S121 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S130 . 1 `S121 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES130  1 e 1 @8 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S100 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1516
+[u S109 . 1 `S100 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES109  1 e 1 @136 ]
+"46 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\main.c
+[v _pre_val pre_val `f  1 e 4 0 ]
+[v _aft_val aft_val `f  1 e 4 0 ]
+"11 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\supporting c files/lcd.c
+[v _status status `s  1 e 2 0 ]
+"56 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"66
+[v main@i i `f  1 a 4 68 ]
+"63
+[v main@difference2 difference2 `f  1 a 4 56 ]
+[v main@difference1 difference1 `f  1 a 4 52 ]
+"62
+[v main@t t `ui  1 a 2 66 ]
+[v main@t2 t2 `ui  1 a 2 64 ]
+"61
+[v main@TempH TempH `us  1 a 2 62 ]
+[v main@TempL TempL `us  1 a 2 60 ]
+"188
+} 0
+"87 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\supporting c files/ds18b20.c
+[v _write_byte write_byte `(v  1 e 1 0 ]
+{
+[v write_byte@val val `uc  1 a 1 wreg ]
+"89
+[v write_byte@i i `uc  1 a 1 2 ]
+"87
+[v write_byte@val val `uc  1 a 1 wreg ]
+"90
+[v write_byte@val val `uc  1 a 1 1 ]
+"113
+} 0
+"57
+[v _read_byte read_byte `(uc  1 e 1 0 ]
+{
+"59
+[v read_byte@i i `uc  1 a 1 3 ]
+[v read_byte@result result `uc  1 a 1 2 ]
+"72
+} 0
+"23
+[v _ow_reset ow_reset `(uc  1 e 1 0 ]
+{
+"42
+} 0
+"95 D:\trident labs\MPLAB X IDE\micro_temp_sensor.X\supporting c files/lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@str str `*.24uc  1 a 1 wreg ]
+"97
+[v lcd_puts@i i `ui  1 a 2 9 ]
+"95
+[v lcd_puts@str str `*.24uc  1 a 1 wreg ]
+"97
+[v lcd_puts@str str `*.24uc  1 a 1 11 ]
+"100
+} 0
+"72
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"94
+} 0
+"28
+[v _lcd_init_write lcd_init_write `(v  1 e 1 0 ]
+{
+[v lcd_init_write@a a `uc  1 a 1 wreg ]
+[v lcd_init_write@a a `uc  1 a 1 wreg ]
+"30
+[v lcd_init_write@a a `uc  1 a 1 4 ]
+"36
+} 0
+"125
+[v _lcd_bcd lcd_bcd `(v  1 e 1 0 ]
+{
+"130
+[v lcd_bcd@ui_decimal ui_decimal `[5]ui  1 a 10 39 ]
+"125
+[v lcd_bcd@ui_number ui_number `ui  1 p 2 37 ]
+"170
+} 0
+"66
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@a a `uc  1 a 1 wreg ]
+[v lcd_data@a a `uc  1 a 1 wreg ]
+"68
+[v lcd_data@a a `uc  1 a 1 8 ]
+"71
+} 0
+"39
+[v _lcd_com lcd_com `(v  1 e 1 0 ]
+{
+[v lcd_com@a a `uc  1 a 1 wreg ]
+"41
+[v lcd_com@temp temp `uc  1 a 1 7 ]
+"39
+[v lcd_com@a a `uc  1 a 1 wreg ]
+"42
+[v lcd_com@a a `uc  1 a 1 6 ]
+"64
+} 0
+"22
+[v _delay delay `(v  1 e 1 0 ]
+{
+"24
+[v delay@i i `ui  1 a 2 2 ]
+"22
+[v delay@j j `ui  1 p 2 0 ]
+"26
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 36 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 35 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 26 ]
+"70
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 8 ]
+[v ___flsub@b b `d  1 p 4 12 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S531 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S536 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S539 . 4 `l 1 i 4 0 `d 1 f 4 0 `S531 1 fAsBytes 4 0 `S536 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S539  1 a 4 20 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 14 ]
+[s S608 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S611 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S608 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S611  1 a 2 24 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 19 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 18 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 13 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0

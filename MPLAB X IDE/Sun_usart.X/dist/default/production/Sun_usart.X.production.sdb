@@ -1,0 +1,412 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\acos.c
+[v _acos acos `(d  1 e 4 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\asin.c
+[v _asin asin `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\atan.c
+[v _atan atan `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fabs.c
+[v _fabs fabs `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcsqrt.c
+[v _sqrt sqrt `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"21 D:\trident labs\MPLAB X IDE\Sun_usart.X\sun_usart.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"28
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"36
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+"67
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+"90
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+"95
+[v _UART_send_float UART_send_float `(v  1 e 1 0 ]
+"110
+[v _main main `(v  1 e 1 0 ]
+"1059 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2404
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2416
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2515
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2578
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2794
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"2812
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2842
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2935
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"2977
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2980
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"3022
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"3031
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3037
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"110 D:\trident labs\MPLAB X IDE\Sun_usart.X\sun_usart.c
+[v _main main `(v  1 e 1 0 ]
+{
+"171
+[v main@i_115 i `i  1 a 2 46 ]
+"167
+[v main@i_112 i `i  1 a 2 44 ]
+"163
+[v main@i_109 i `i  1 a 2 42 ]
+"159
+[v main@i_106 i `i  1 a 2 40 ]
+"155
+[v main@i_103 i `i  1 a 2 38 ]
+"127
+[v main@i_98 i `i  1 a 2 36 ]
+"123
+[v main@i i `i  1 a 2 34 ]
+"113
+[v main@r r `f  1 a 4 68 ]
+[v main@negy negy `f  1 a 4 64 ]
+[v main@negx negx `f  1 a 4 60 ]
+[v main@z z `f  1 a 4 56 ]
+[v main@y y `f  1 a 4 52 ]
+[v main@x x `f  1 a 4 48 ]
+"114
+[v main@E E `f  1 a 4 16 ]
+[v main@D D `f  1 a 4 12 ]
+[v main@C C `f  1 a 4 8 ]
+[v main@B B `f  1 a 4 4 ]
+[v main@A A `f  1 a 4 0 ]
+"112
+[v main@flag flag `s  1 a 2 32 ]
+"178
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\acos.c
+[v _acos acos `(d  1 e 4 0 ]
+{
+[v acos@x x `d  1 p 4 54 ]
+"11
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\asin.c
+[v _asin asin `(d  1 e 4 0 ]
+{
+"11
+[v asin@y y `d  1 a 4 46 ]
+"9
+[v asin@x x `d  1 p 4 30 ]
+"25
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcsqrt.c
+[v _sqrt sqrt `(d  1 e 4 0 ]
+{
+"14
+[v sqrt@frac frac `ul  1 a 4 25 ]
+[s S411 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"11
+[s S416 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S419 . 4 `l 1 i 4 0 `d 1 f 4 0 `S411 1 fAsBytes 4 0 `S416 1 fAsWords 4 0 ]
+[v sqrt@root root `S419  1 a 4 21 ]
+"16
+[v sqrt@grs grs `ul  1 a 4 15 ]
+"15
+[v sqrt@tfrac tfrac `ul  1 a 4 10 ]
+"13
+[v sqrt@exp exp `i  1 a 2 19 ]
+"12
+[v sqrt@p p `uc  1 a 1 14 ]
+[v sqrt@i i `uc  1 a 1 9 ]
+[v sqrt@sign sign `uc  1 a 1 8 ]
+"9
+[v sqrt@a a `d  1 p 4 0 ]
+"159
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\atan.c
+[v _atan atan `(d  1 e 4 0 ]
+{
+"28
+[v atan@val val `d  1 a 4 26 ]
+[v atan@val_squared val_squared `d  1 a 4 22 ]
+[v atan@x x `d  1 a 4 17 ]
+[v atan@y y `d  1 a 4 13 ]
+"27
+[v atan@recip recip `uc  1 a 1 21 ]
+"8
+[v atan@f f `d  1 p 4 9 ]
+"10
+[v atan@coeff_a coeff_a `DC[6]d  1 s 24 coeff_a ]
+"19
+[v atan@coeff_b coeff_b `DC[5]d  1 s 20 coeff_b ]
+"41
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fabs.c
+[v _fabs fabs `(d  1 e 4 0 ]
+{
+[v fabs@d d `d  1 p 4 20 ]
+"9
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 16 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 4 5 ]
+"4
+[v eval_poly@x x `d  1 p 4 72 ]
+[v eval_poly@d d `*.24DCd  1 p 1 76 ]
+[v eval_poly@n n `i  1 p 2 77 ]
+"12
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 24 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 28 ]
+"12
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 40 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 33 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 38 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 45 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 44 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 37 ]
+"8
+[v ___fldiv@a a `d  1 p 4 20 ]
+[v ___fldiv@b b `d  1 p 4 24 ]
+"185
+} 0
+"90 D:\trident labs\MPLAB X IDE\Sun_usart.X\sun_usart.c
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+{
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 2 ]
+"94
+} 0
+"95
+[v _UART_send_float UART_send_float `(v  1 e 1 0 ]
+{
+"98
+[v UART_send_float@f f `f  1 a 4 9 ]
+"97
+[v UART_send_float@ival ival `i  1 a 2 19 ]
+"99
+[v UART_send_float@fval fval `i  1 a 2 17 ]
+"102
+[v UART_send_float@fval1 fval1 `i  1 a 2 15 ]
+"100
+[v UART_send_float@ival1 ival1 `i  1 a 2 13 ]
+"95
+[v UART_send_float@bt bt `f  1 p 4 5 ]
+"109
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 2 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 1 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 5 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 0 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 77 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 76 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 72 ]
+"70
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 72 ]
+[v ___flsub@b b `d  1 p 4 76 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 12 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 10 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 9 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S411 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S416 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S419 . 4 `l 1 i 4 0 `d 1 f 4 0 `S411 1 fAsBytes 4 0 `S416 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S419  1 a 4 66 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 60 ]
+[s S488 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S491 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S488 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S491  1 a 2 70 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 65 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 64 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 59 ]
+"8
+[v ___flmul@b b `d  1 p 4 46 ]
+[v ___flmul@a a `d  1 p 4 50 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"67 D:\trident labs\MPLAB X IDE\Sun_usart.X\sun_usart.c
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+{
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 0 ]
+"71
+} 0
+"36
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+{
+"63
+} 0
+"28
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"30
+[v ADC_Read@channel channel `uc  1 a 1 4 ]
+"35
+} 0
+"21
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0

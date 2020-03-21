@@ -1,0 +1,276 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"2229 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16F877A.h
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"1561
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"1499
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1437
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1375
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"402
+[v _PORTE `Vuc ~T0 @X0 0 e@9 ]
+"340
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"278
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"216
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"25 LED_MAIN.c
+[; ;LED_MAIN.c: 25: void delay (unsigned int itime);
+[v _delay `(v ~T0 @X0 0 ef1`ui ]
+"8 LED_MAIN.c
+[p x FOSC = HS ]
+"9
+[p x WDTE = OFF ]
+"10
+[p x PWRTE = OFF ]
+"12
+[p x LVP = OFF ]
+"13
+[p x CPD = OFF ]
+"14
+[p x WRT = OFF ]
+"15
+[p x CP = OFF ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16F877A.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"218
+[; <" PORTB equ 06h ;# ">
+"280
+[; <" PORTC equ 07h ;# ">
+"342
+[; <" PORTD equ 08h ;# ">
+"404
+[; <" PORTE equ 09h ;# ">
+"436
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"732
+[; <" TMR2 equ 011h ;# ">
+"739
+[; <" T2CON equ 012h ;# ">
+"810
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; <" SSPCON equ 014h ;# ">
+"887
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; <" TXREG equ 019h ;# ">
+"1068
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; <" TRISA equ 085h ;# ">
+"1377
+[; <" TRISB equ 086h ;# ">
+"1439
+[; <" TRISC equ 087h ;# ">
+"1501
+[; <" TRISD equ 088h ;# ">
+"1563
+[; <" TRISE equ 089h ;# ">
+"1620
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; <" PR2 equ 092h ;# ">
+"1825
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; <" EECON2 equ 018Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"28 LED_MAIN.c
+[; ;LED_MAIN.c: 28: void main()
+[v _main `(v ~T0 @X0 1 ef ]
+"29
+[; ;LED_MAIN.c: 29: {
+{
+[e :U _main ]
+[f ]
+"30
+[; ;LED_MAIN.c: 30:     ADCON1=0X07;
+[e = _ADCON1 -> -> 7 `i `uc ]
+"31
+[; ;LED_MAIN.c: 31:     TRISE=0X00;
+[e = _TRISE -> -> 0 `i `uc ]
+"32
+[; ;LED_MAIN.c: 32: TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"33
+[; ;LED_MAIN.c: 33: TRISC =0;
+[e = _TRISC -> -> 0 `i `uc ]
+"34
+[; ;LED_MAIN.c: 34: TRISB = 0;
+[e = _TRISB -> -> 0 `i `uc ]
+"35
+[; ;LED_MAIN.c: 35: {
+{
+"36
+[; ;LED_MAIN.c: 36: while(1)
+[e :U 97 ]
+"37
+[; ;LED_MAIN.c: 37: {
+{
+"38
+[; ;LED_MAIN.c: 38:     PORTE= 0X00;
+[e = _PORTE -> -> 0 `i `uc ]
+"39
+[; ;LED_MAIN.c: 39: PORTD = 0X00;
+[e = _PORTD -> -> 0 `i `uc ]
+"40
+[; ;LED_MAIN.c: 40: PORTC =0X00;
+[e = _PORTC -> -> 0 `i `uc ]
+"41
+[; ;LED_MAIN.c: 41: PORTB = 0X00;
+[e = _PORTB -> -> 0 `i `uc ]
+"42
+[; ;LED_MAIN.c: 42: delay(1000);
+[e ( _delay (1 -> -> 1000 `i `ui ]
+"43
+[; ;LED_MAIN.c: 43: PORTD = 0Xff;
+[e = _PORTD -> -> 255 `i `uc ]
+"44
+[; ;LED_MAIN.c: 44: PORTC = 0Xff;
+[e = _PORTC -> -> 255 `i `uc ]
+"45
+[; ;LED_MAIN.c: 45: PORTB = 0Xff;
+[e = _PORTB -> -> 255 `i `uc ]
+"46
+[; ;LED_MAIN.c: 46: PORTE = 0Xff;
+[e = _PORTE -> -> 255 `i `uc ]
+"47
+[; ;LED_MAIN.c: 47: delay (1000);
+[e ( _delay (1 -> -> 1000 `i `ui ]
+"48
+[; ;LED_MAIN.c: 48: }
+}
+[e :U 96 ]
+[e $U 97  ]
+[e :U 98 ]
+"49
+[; ;LED_MAIN.c: 49: }
+}
+"53
+[; ;LED_MAIN.c: 53:  }
+[e :UE 95 ]
+}
+"54
+[; ;LED_MAIN.c: 54: void delay (unsigned int itime)
+[v _delay `(v ~T0 @X0 1 ef1`ui ]
+"55
+[; ;LED_MAIN.c: 55: {
+{
+[e :U _delay ]
+"54
+[; ;LED_MAIN.c: 54: void delay (unsigned int itime)
+[v _itime `ui ~T0 @X0 1 r1 ]
+"55
+[; ;LED_MAIN.c: 55: {
+[f ]
+"56
+[; ;LED_MAIN.c: 56:  int i,j;
+[v _i `i ~T0 @X0 1 a ]
+[v _j `i ~T0 @X0 1 a ]
+"57
+[; ;LED_MAIN.c: 57: for(i=0;i<=itime;i++)
+{
+[e = _i -> 0 `i ]
+[e $U 103  ]
+[e :U 100 ]
+"58
+[; ;LED_MAIN.c: 58: for(j=0;j<=1275;j++);
+{
+[e = _j -> 0 `i ]
+[e $ <= _j -> 1275 `i 104  ]
+[e $U 105  ]
+[e :U 104 ]
+[e ++ _j -> 1 `i ]
+[e $ <= _j -> 1275 `i 104  ]
+[e :U 105 ]
+}
+[e ++ _i -> 1 `i ]
+[e :U 103 ]
+[e $ <= -> _i `ui _itime 100  ]
+[e :U 101 ]
+}
+"60
+[; ;LED_MAIN.c: 60: }
+[e :UE 99 ]
+}

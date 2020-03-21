@@ -1,0 +1,494 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"1159 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"2229
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"2404
+[v _ADON `Vb ~T0 @X0 0 e@248 ]
+[v F844 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic.h
+[v __delay `JF844 ~T0 @X0 0 e ]
+[p i __delay ]
+"2578 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _GO_nDONE `Vb ~T0 @X0 0 e@250 ]
+"1152
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2222
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"2977
+[v _TRISC6 `Vb ~T0 @X0 0 e@1086 ]
+"2980
+[v _TRISC7 `Vb ~T0 @X0 0 e@1087 ]
+"2080
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2416
+[v _BRGH `Vb ~T0 @X0 0 e@1218 ]
+"2842
+[v _SYNC `Vb ~T0 @X0 0 e@1220 ]
+"2812
+[v _SPEN `Vb ~T0 @X0 0 e@199 ]
+"3031
+[v _TXEN `Vb ~T0 @X0 0 e@1221 ]
+"2515
+[v _CREN `Vb ~T0 @X0 0 e@196 ]
+"3022
+[v _TX9 `Vb ~T0 @X0 0 e@1222 ]
+"2794
+[v _RX9 `Vb ~T0 @X0 0 e@198 ]
+"3037
+[v _TXIF `Vb ~T0 @X0 0 e@100 ]
+"1059
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"2614
+[v _OERR `Vb ~T0 @X0 0 e@193 ]
+"2743
+[v _RCIF `Vb ~T0 @X0 0 e@101 ]
+"1066
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+[p mainexit ]
+"1375
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"2935
+[v _TRISB0 `Vb ~T0 @X0 0 e@1072 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\c90\math.h
+[v _sqrt `(d ~T0 @X0 0 ef1`d ]
+"40
+[v _acos `(d ~T0 @X0 0 ef1`d ]
+"3 ../main.c
+[p x FOSC=HS ]
+"4
+[p x WDTE=OFF ]
+"5
+[p x PWRTE=OFF ]
+"6
+[p x BOREN=ON ]
+"7
+[p x LVP=OFF ]
+"8
+[p x CPD=OFF ]
+"9
+[p x WRT=OFF ]
+"10
+[p x CP=OFF ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"218
+[; <" PORTB equ 06h ;# ">
+"280
+[; <" PORTC equ 07h ;# ">
+"342
+[; <" PORTD equ 08h ;# ">
+"404
+[; <" PORTE equ 09h ;# ">
+"436
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; <" T1CON equ 010h ;# ">
+"732
+[; <" TMR2 equ 011h ;# ">
+"739
+[; <" T2CON equ 012h ;# ">
+"810
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; <" SSPCON equ 014h ;# ">
+"887
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; <" TXREG equ 019h ;# ">
+"1068
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; <" TRISA equ 085h ;# ">
+"1377
+[; <" TRISB equ 086h ;# ">
+"1439
+[; <" TRISC equ 087h ;# ">
+"1501
+[; <" TRISD equ 088h ;# ">
+"1563
+[; <" TRISE equ 089h ;# ">
+"1620
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; <" PR2 equ 092h ;# ">
+"1825
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; <" EECON2 equ 018Dh ;# ">
+"16 ../main.c
+[v _ADC_Initialize `(v ~T0 @X0 1 ef ]
+"17
+{
+[e :U _ADC_Initialize ]
+[f ]
+"18
+[e = _ADCON0 -> -> 128 `i `uc ]
+"19
+[e = _ADCON1 -> -> 128 `i `uc ]
+"20
+[e = _ADON -> -> 1 `i `b ]
+"21
+[e :UE 95 ]
+}
+"23
+[v _ADC_Read `(ui ~T0 @X0 1 ef1`uc ]
+"24
+{
+[e :U _ADC_Read ]
+"23
+[v _channel `uc ~T0 @X0 1 r1 ]
+"24
+[f ]
+"25
+[e =| _ADCON0 -> << -> _channel `i -> 3 `i `uc ]
+"26
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"27
+[e = _GO_nDONE -> -> 1 `i `b ]
+"28
+[e $U 97  ]
+[e :U 98 ]
+[e :U 97 ]
+[e $ _GO_nDONE 98  ]
+[e :U 99 ]
+"29
+[e ) -> | << -> _ADRESH `i -> 8 `i -> _ADRESL `i `ui ]
+[e $UE 96  ]
+"30
+[e :UE 96 ]
+}
+"31
+[v _Initialize_UART `(v ~T0 @X0 1 ef ]
+"32
+{
+[e :U _Initialize_UART ]
+[f ]
+"34
+[e = _TRISC6 -> -> 0 `i `b ]
+"35
+[e = _TRISC7 -> -> 1 `i `b ]
+"40
+[e = _SPBRG -> - / / -> 20000000 `l -> -> 16 `i `l -> -> 9600 `i `l -> -> 1 `i `l `uc ]
+"41
+[e = _BRGH -> -> 1 `i `b ]
+"45
+[e = _SYNC -> -> 0 `i `b ]
+"46
+[e = _SPEN -> -> 1 `i `b ]
+"50
+[e = _TXEN -> -> 1 `i `b ]
+"51
+[e = _CREN -> -> 1 `i `b ]
+"55
+[e = _TX9 -> -> 0 `i `b ]
+"56
+[e = _RX9 -> -> 0 `i `b ]
+"58
+[e :UE 100 ]
+}
+"62
+[v _UART_send_char `(v ~T0 @X0 1 ef1`uc ]
+"63
+{
+[e :U _UART_send_char ]
+"62
+[v _bt `uc ~T0 @X0 1 r1 ]
+"63
+[f ]
+"64
+[e $U 102  ]
+[e :U 103 ]
+[e :U 102 ]
+[e $ ! _TXIF 103  ]
+[e :U 104 ]
+"65
+[e = _TXREG _bt ]
+"66
+[e :UE 101 ]
+}
+"68
+[v _UART_get_char `(uc ~T0 @X0 1 ef ]
+"69
+{
+[e :U _UART_get_char ]
+[f ]
+"70
+[e $ ! _OERR 106  ]
+"71
+{
+"72
+[e = _CREN -> -> 0 `i `b ]
+"73
+[e = _CREN -> -> 1 `i `b ]
+"74
+}
+[e :U 106 ]
+"76
+[e $U 107  ]
+[e :U 108 ]
+[e :U 107 ]
+[e $ ! _RCIF 108  ]
+[e :U 109 ]
+"78
+[e ) _RCREG ]
+[e $UE 105  ]
+"79
+[e :UE 105 ]
+}
+"81
+[v _UART_send_float `(v ~T0 @X0 1 ef1`f ]
+"82
+{
+[e :U _UART_send_float ]
+"81
+[v _bt `f ~T0 @X0 1 r1 ]
+"82
+[f ]
+"83
+[v _ival `i ~T0 @X0 1 a ]
+[e = _ival -> _bt `i ]
+"84
+[v _f `f ~T0 @X0 1 a ]
+[e = _f - _bt -> _ival `f ]
+"85
+[v _fval `i ~T0 @X0 1 a ]
+[e = _fval -> * _f -> -> 100 `i `f `i ]
+"86
+[v _ival1 `i ~T0 @X0 1 a ]
+[e = _ival1 % _ival -> 10 `i ]
+"87
+[e = _ival / _ival -> 10 `i ]
+"88
+[v _fval1 `i ~T0 @X0 1 a ]
+[e = _fval1 % _fval -> 10 `i ]
+"89
+[e = _fval / _fval -> 10 `i ]
+"90
+[e ( _UART_send_char (1 -> + -> 48 `i _ival `uc ]
+"91
+[e ( _UART_send_char (1 -> + -> 48 `i _ival1 `uc ]
+"92
+[e ( _UART_send_char (1 -> -> 46 `i `uc ]
+"93
+[e ( _UART_send_char (1 -> + -> 48 `i _fval `uc ]
+"94
+[e ( _UART_send_char (1 -> + -> 48 `i _fval1 `uc ]
+"95
+[e :UE 110 ]
+}
+"99
+[v _UART_send_string `(v ~T0 @X0 1 ef1`*uc ]
+"100
+{
+[e :U _UART_send_string ]
+"99
+[v _st_pt `*uc ~T0 @X0 1 r1 ]
+"100
+[f ]
+"101
+[e $U 112  ]
+[e :U 113 ]
+"102
+[e ( _UART_send_char (1 *U ++ _st_pt * -> -> 1 `i `x -> -> # *U _st_pt `i `x ]
+[e :U 112 ]
+"101
+[e $ != -> *U _st_pt `i -> -> -> 0 `i `uc `i 113  ]
+[e :U 114 ]
+"103
+[e :UE 111 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"104
+[v _main `(v ~T0 @X0 1 ef ]
+"105
+{
+[e :U _main ]
+[f ]
+"107
+[v _x `f ~T0 @X0 1 a ]
+[v _y `f ~T0 @X0 1 a ]
+[v _z `f ~T0 @X0 1 a ]
+[v _negx `f ~T0 @X0 1 a ]
+[v _negy `f ~T0 @X0 1 a ]
+[v _r `f ~T0 @X0 1 a ]
+"108
+[v _A `f ~T0 @X0 1 a ]
+[v _B `f ~T0 @X0 1 a ]
+[v _C `f ~T0 @X0 1 a ]
+[v _D `f ~T0 @X0 1 a ]
+[v _E `f ~T0 @X0 1 a ]
+"110
+[e = _TRISB -> -> 0 `i `uc ]
+"111
+[e = _TRISB0 -> -> 1 `i `b ]
+"113
+[e ( _ADC_Initialize ..  ]
+"114
+[e ( _Initialize_UART ..  ]
+"116
+[e ( _UART_send_string (1 -> :s 1C `*uc ]
+"117
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"118
+[e ( _UART_send_string (1 -> :s 2C `*uc ]
+"119
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"120
+[e :U 117 ]
+"121
+{
+"126
+[e ( _ADC_Initialize ..  ]
+"127
+[e = _x -> ( _ADC_Read (1 -> -> 0 `i `uc `f ]
+"128
+[e = _y -> ( _ADC_Read (1 -> -> 1 `i `uc `f ]
+"129
+[e = _z -> ( _ADC_Read (1 -> -> 2 `i `uc `f ]
+"130
+[e = _negx -> ( _ADC_Read (1 -> -> 3 `i `uc `f ]
+"131
+[e = _negy -> ( _ADC_Read (1 -> -> 4 `i `uc `f ]
+"136
+[e = _r -> + ( _sqrt (1 -> + + * + _x _negx + _x _negx * + _y _negy + _y _negy * _z _z `d -> -> 1 `i `d `f ]
+"137
+[e = _A -> * ( _acos (1 -> / _x _r `d .57.29 `f ]
+"138
+[e = _B -> * ( _acos (1 -> / _y _r `d .57.29 `f ]
+"139
+[e = _C -> * ( _acos (1 -> / _z _r `d .57.29 `f ]
+"140
+[e = _D -> * ( _acos (1 -> / _negx _r `d .57.29 `f ]
+"141
+[e = _E -> * ( _acos (1 -> / _negy _r `d .57.29 `f ]
+"146
+[e ( _UART_send_string (1 -> :s 3C `*uc ]
+"147
+[e ( _UART_send_float (1 _A ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_float (1 _x ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"148
+[e ( _UART_send_string (1 -> :s 4C `*uc ]
+"149
+[e ( _UART_send_float (1 _B ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_float (1 _y ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"150
+[e ( _UART_send_string (1 -> :s 5C `*uc ]
+"151
+[e ( _UART_send_float (1 _C ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_float (1 _negx ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"152
+[e ( _UART_send_string (1 -> :s 6C `*uc ]
+"153
+[e ( _UART_send_float (1 _D ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_float (1 _negy ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"154
+[e ( _UART_send_string (1 -> :s 7C `*uc ]
+"155
+[e ( _UART_send_float (1 _E ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_float (1 _z ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"156
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"157
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+[e ( _UART_send_char (1 -> -> 13 `i `uc ]
+"159
+}
+[e :U 116 ]
+"120
+[e $U 117  ]
+[e :U 118 ]
+"160
+[e :UE 115 ]
+}
+[a 7C 32 78 69 71 32 89 32 65 88 73 83 58 0 ]
+[a 2C 83 85 78 32 83 69 78 83 79 82 32 87 79 82 75 73 78 71 46 46 46 0 ]
+[a 5C 32 90 32 65 88 73 83 58 32 0 ]
+[a 4C 32 89 32 65 88 73 83 58 32 0 ]
+[a 6C 32 78 69 71 32 88 32 65 88 73 83 58 32 0 ]
+[a 3C 32 88 32 65 88 73 83 58 32 0 ]
+[a 1C 85 65 82 84 32 77 111 100 117 108 101 32 73 110 105 116 105 97 108 105 122 101 100 32 97 110 100 32 97 99 116 105 118 101 10 0 ]

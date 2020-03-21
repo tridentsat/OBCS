@@ -1,0 +1,88 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"8 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/lcd.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"18
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"27
+[v _LCD LCD `(i  1 e 2 0 ]
+"3 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/led.c
+[v _led led `(i  1 e 2 0 ]
+"16 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/main.c
+[v _main main `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/lcd.c
+[v _i i `i  1 e 2 0 ]
+[v _u u `i  1 e 2 0 ]
+"216 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2704
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2773
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2776
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2779
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"16 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"24
+} 0
+"3 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/led.c
+[v _led led `(i  1 e 2 0 ]
+{
+"5
+[v led@i i `i  1 a 2 3 ]
+"13
+} 0
+"27 D:\trident labs\PROTEUS\1.LED-LCD PROJECT\PIC16F877A/lcd.c
+[v _LCD LCD `(i  1 e 2 0 ]
+{
+"30
+[v LCD@b b `[15]uc  1 a 15 0 ]
+"31
+[v LCD@c c `[8]uc  1 a 8 15 ]
+"28
+[v LCD@i i `i  1 a 2 23 ]
+[v LCD@F1041 F1041 `[15]uc  1 s 15 F1041 ]
+"30
+[v LCD@F1043 F1043 `[8]uc  1 s 8 F1043 ]
+"53
+} 0
+"18
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@b b `uc  1 a 1 wreg ]
+[v lcd_data@b b `uc  1 a 1 wreg ]
+"20
+[v lcd_data@b b `uc  1 a 1 0 ]
+"26
+} 0
+"8
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@a a `uc  1 a 1 wreg ]
+[v lcd_command@a a `uc  1 a 1 wreg ]
+"10
+[v lcd_command@a a `uc  1 a 1 0 ]
+"16
+} 0
